@@ -72,4 +72,4 @@ Argument that will use binary file as payload (binary file will start in RAM mem
 Argument that will download file on computer of victim and execute it.
 
 <b>--listener-host</b>
-Argument for starting TCP listener on curret ip (default: 127.0.0.1)
+Argument for starting TCP listener on current ip (default: 127.0.0.1)

@@ -9,7 +9,7 @@ It is rtf documents that are vulnerable for the reason that they can be "program
 
 <br>
 
-# Atention!
+# Attention!
 Author and contributors <b>are not responsible</b> for any damage caused to you or by you.
 
 ## Installation

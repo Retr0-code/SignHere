@@ -1,14 +1,14 @@
 # SignHere
 
 # Installation
-
+The program requires python3 for executing.[![Python3]](https://www.python.org)]
 <b>Linux</b>
 --
 You can use <b>Termux</b>, but execution of program requires <b>root</b>
 
 ```sh
 git clone https://github.com/Retr0-code/SignHere/
-cd SignHere
+cd SignHere/
 chmod +x SignHere.py
 ./SignHere.py --help
 ```

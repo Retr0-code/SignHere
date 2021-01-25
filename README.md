@@ -16,7 +16,7 @@ chmod +x SignHere.py
 
 <b>Windows</b>
 --
-First, you need to download the [archive]. Then unpack it and open a PowerShell window in this folder and write:
+First, you need to download the [archive](https://github.com/Retr0-code/SignHere/archive/main.zip). Then unpack it and open a PowerShell window in this folder and write:
 ```sh
 .\SignHere.py
 ```

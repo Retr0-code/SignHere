@@ -9,6 +9,9 @@ It is rtf documents that are vulnerable for the reason that they can be "program
 
 <br>
 
+# Atention!
+Author and contributors <b>are not responsible</b> for any damage caused to you or by you.
+
 # Installation
 The program requires [Python 3](https://www.python.org) for executing.
 --

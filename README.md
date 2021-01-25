@@ -1,7 +1,8 @@
 # SignHere
 
 # Installation
-The program requires python3 for executing.[![Python3]](https://www.python.org)]
+The program requires [Python 3](https://www.python.org) for executing.
+--
 <b>Linux</b>
 --
 You can use <b>Termux</b>, but execution of program requires <b>root</b>

